@@ -13,7 +13,10 @@ public class EX03 {
 		int pessoas = 0, total = 0, cont = 1, menor21 = 0, maior50 = 0;
 		Scanner leia = new Scanner(System.in);
 		
-		while(cont > pessoas) {
+		System.out.println("Quantas pessoas irão participar? ");
+		pessoas = leia.nextInt();
+		
+		while(cont <= pessoas) {
 			
 			System.out.println("Informe a idade da " + cont + "° pessoa: ");
 			idade = leia.nextInt();
